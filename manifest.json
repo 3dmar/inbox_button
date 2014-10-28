@@ -1,0 +1,17 @@
+{
+    "name": "Inbox Button",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Open Google Inbox",
+    "browser_action": {
+        "default_icon": "icon16.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
